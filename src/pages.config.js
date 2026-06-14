@@ -17,7 +17,8 @@
  *       "HomePage": HomePage,
  *       "Dashboard": Dashboard,
  *       "Settings": Settings,
- *   }
+ *       "Login": Login,
+}
  *   
  *   export const pagesConfig = {
  *       mainPage: "HomePage",
@@ -29,11 +30,13 @@
  *   import Home from './pages/Home';
  *   import Settings from './pages/Settings';
  *   import __Layout from './Layout.jsx';
+import Login from './pages/Login';
  *
  *   export const PAGES = {
  *       "Home": Home,
  *       "Settings": Settings,
- *   }
+ *       "Login": Login,
+}
  *
  *   export const pagesConfig = {
  *       mainPage: "Home",
@@ -52,6 +55,7 @@ import Home from './pages/Home';
 
 export const PAGES = {
     "Home": Home,
+    "Login": Login,
 }
 
 export const pagesConfig = {
